@@ -1,0 +1,276 @@
+/* 
+ * 只需要给自己设定的页面写样式即可 
+ *   已经设定好的PAGE?样式
+ *     每一个页面都是一屏幕
+ *     都设置了position:relative，这样每一页的子元素都相当于当前页面定位
+ *     溢出的内容都隐藏了
+ *     ......
+ */
+/* ==PAGE1== */
+.page1 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+
+.page1 img {
+    position: absolute;
+}
+
+.page1 img:nth-of-type(1) {
+    /* 所有测量出来的尺寸都要除以100变为REM */
+    width: 5rem;
+    height: 10rem;
+    left: 1.5rem;
+    top: 2rem;
+}
+
+.page1 img:nth-of-type(2) {
+    widows: 1.5rem;
+    height: 2rem;
+    left:1.5rem;
+    top: 2rem;
+}
+.page1 img:nth-of-type(3) {
+    widows: 1.5rem;
+    height: 2rem;
+    right:1.5rem;
+    top: 2rem;
+}
+
+
+
+/* ==PAGE2== */
+.page2 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+
+.page2 img {
+    position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+    width: 1.87rem;
+    height: 7.48rem;
+    right: 0rem;
+    top:2.8rem;
+    
+}
+
+.page2 img:nth-of-type(2) {
+    width: 1.87rem;
+    height: 7.48rem;
+    right: 1.2rem;
+    top: 2.8rem;
+}
+
+.page2 img:nth-of-type(3) {
+    width: 1.87rem;
+    height: 7.48rem;
+    right: 3rem;
+    top: 2.8rem;
+}
+
+.page2 img:nth-of-type(4) {
+    width: 1.87rem;
+    height: 7.48rem;
+    right: 4.8rem;
+    top: 2.8rem;
+}
+
+.page2 img:nth-of-type(5) {
+    width:6rem;
+    height:3.5rem;
+    left: 0rem;
+    top: 0rem;
+}
+
+.page3 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page3 img {
+    position: absolute;
+}
+
+.page3 img:nth-of-type(1) {
+    width: 7rem;
+    height: 14rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page4 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page4 img {
+    position: absolute;
+}
+
+.page4 img:nth-of-type(1) {
+    width: 7rem;
+    height: 14rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page5 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page5 img {
+    position: absolute;
+}
+
+.page5 img:nth-of-type(1) {
+    width: 7rem;
+    height: 14rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page6 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page6 img {
+    position: absolute;
+}
+
+.page6 img:nth-of-type(1) {
+    width: 7rem;
+    height: 14rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page7 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page7 img {
+    position: absolute;
+}
+
+.page7 img:nth-of-type(1) {
+    width: 7rem;
+    height: 14rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page8 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page8 img {
+    position: absolute;
+}
+
+.page8 img:nth-of-type(1) {
+    width: 7rem;
+    height: 14rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page9 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page9 img {
+    position: absolute;
+}
+
+.page9 img:nth-of-type(1) {
+    width: 7rem;
+    height: 14rem;
+    right: 0rem;
+    top: 0rem;
+}
+
+.page10 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page10 img {
+    position: absolute;
+}
+
+.page10 img:nth-of-type(1) {
+    width: 2.7rem;
+    height: 5rem;
+    right: .4rem;
+    top: .4rem;
+}
+
+.page10 img:nth-of-type(2) {
+    width: 2.7rem;
+    height: 5rem;
+    right: 4rem;
+    top: .4rem;
+}
+
+.page10 img:nth-of-type(3) {
+    width: 3rem;
+    height: 5rem;
+    right: .4rem;
+    bottom: .4rem;
+}
+
+.page10 img:nth-of-type(4) {
+    width: 3rem;
+    height: 5rem;
+    right: 4rem;
+    bottom: .4rem;
+}
+
+.page10 img:nth-of-type(5) {
+    width: 3rem;
+    height: 5rem;
+    right: 2rem;
+    bottom: 5rem;
+}
+
+.page11 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page11 img {
+    position: absolute;
+}
+
+.page11 img:nth-of-type(1) {
+    width: 7rem;
+    height: 14rem;
+    right: 0rem;
+    top: 0rem;
+}
+.page11 img:nth-of-type(2) {
+    width: 6rem;
+    height: 4rem;
+    right: 2rem;
+    top: 0rem;
+}
+.page12 {
+    background: url('image/5.jpg') no-repeat;
+    background-size: cover;
+}
+.page12 img {
+    position: absolute;
+}
+
+.page12 img:nth-of-type(1) {
+    width: 7rem;
+    height: 6rem;
+    right: 0rem;
+    top:.5rem;
+}
+
+.page12 img:nth-of-type(2) {
+    width: 7rem;
+    height: 6rem;
+    right: 0rem;
+    bottom:.5rem;
+}
